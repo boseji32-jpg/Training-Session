@@ -1,0 +1,15 @@
+"Create a detailed, step-by-step guide for a SysAdmin class on installing and configuring Debian using the Windows Subsystem for Linux (WSL).
+
+The guide must be structured to support both modern Windows 10/11 installations (using the wsl --install command) and older Windows 10 versions (requiring a full manual configuration).
+
+Crucially, ensure the guide includes explicit, separate steps for enabling the Virtual Machine Platform feature and the WSL Feature to ensure Docker compatibility is established from the beginning.
+
+In a dedicated troubleshooting section, address common student mistakes and specific errors, including:
+
+The Error 0x80370114 related to CPU virtualization being disabled in the BIOS.
+
+Missing kernel component errors.
+
+'wsl' is not recognized errors on older OS builds.
+
+Finally, include essential post-installation steps covering: system updates, checking the default WSL version, and key developer integration points like accessing Windows files from Linux (/mnt/c) and accessing Linux services from the Windows browser via localhost."
